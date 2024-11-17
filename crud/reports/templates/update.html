@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<main>
+  <section>
+    <h1> Update Record </h1>
+    <form class="form-with-validation" action="" method="post">
+      {% csrf_token %}
+      {{ form }}
+        <button class="form-submit"> Update </button>
+    </form>
+  </section>
+</main>
+</body>
+</html>
